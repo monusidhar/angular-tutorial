@@ -1,1 +1,5 @@
-<h1 class="app-servers" >hi i am server</h1>
+<form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+    <input  name="username" formControlName="username" />
+    <input  name="username" formControlName="email" />
+    <button class="btn btn-primary" type="submit">submit</button>
+</form>
